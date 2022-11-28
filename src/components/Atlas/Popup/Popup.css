@@ -1,0 +1,80 @@
+.AtlasPopup {
+  position: absolute;
+  z-index: 100;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.589);
+  margin-left: -220px;
+  margin-top: -60px;
+  min-width: 160px;
+  transition: opacity 0.2s ease, top 0.2s ease, left 0.2s ease,
+    margin-left 0.2s ease;
+  border-radius: 8px;
+  user-select: none;
+  pointer-events: none;
+  text-align: left;
+  color: white;
+}
+
+.AtlasPopup.right {
+  margin-left: 40px;
+}
+
+.AtlasPopup .land-name .name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 600;
+  width: 100px;
+}
+
+.name-row {
+  display: flex !important;
+  align-items: center;
+}
+
+.AtlasPopup .coordinates {
+  font-size: 12px !important;
+  line-height: 13px !important;
+  padding: 3px 5px !important;
+  margin-left: 8px;
+  height: 24px !important;
+  font-weight: 500 !important;
+  display: flex;
+  align-items: center;
+  background-color: #3d3a46;
+  border-radius: 8px;
+}
+
+.AtlasPopup .dcl.section.medium:last-child {
+  margin-bottom: 0px;
+}
+
+.AtlasPopup .price .dcl.mana {
+  font-size: 14px;
+}
+
+.AtlasPopup.no-owner .owner {
+  display: none;
+}
+
+.AtlasPopup.no-owner .land-name {
+  margin-bottom: 0px;
+}
+
+.owner-price-title {
+  color: #676370;
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.address-content {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.address-img {
+  width: 20px;
+  margin-right: 10px;
+}

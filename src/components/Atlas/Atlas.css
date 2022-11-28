@@ -1,0 +1,16 @@
+.dcl.atlas {
+  background: #21263f;
+}
+
+.react-tile-map-canvas.clickable {
+  cursor: unset;
+}
+
+.react-tile-map-canvas.draggable {
+  cursor: unset;
+  /* cursor: -webkit-grab; */
+}
+
+.react-tile-map-canvas.draggable:active {
+  cursor: unset;
+}
